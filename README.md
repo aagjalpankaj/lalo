@@ -10,7 +10,7 @@
 
 **Lalo** validates logs at runtime without adding any overhead on production environment, helps making logs more concise and consistent.
 
-It not only validates logs but also adds additional application and request metadata that makes log aggregation, searching, and analysis more efficient.
+It not only just validates logs but also adds additional metadata to the log that makes log aggregation, searching, and analysis more efficient.
 
 ✨ **Monolog power:** It is built on top of [Monolog](https://github.com/Seldaek/monolog), so you don't lose power of monolog.
 
