@@ -2,26 +2,23 @@
 
 declare(strict_types=1);
 
-arch('naming > commands')
+arch('commands')
     ->expect('Aagjalpankaj\Lalo\Commands')
     ->toHaveSuffix('Command');
 
-arch('naming > formatters')
+arch('formatters')
     ->expect('Aagjalpankaj\Lalo\Formatters')
-    ->toHaveSuffix('Formatter');
+    ->toHaveSuffix('Formatter')
+    ->toImplement('Monolog\Formatter\FormatterInterface');
 
-arch('naming > middlewares')
+arch('middlewares')
     ->expect('Aagjalpankaj\Lalo\Middlewares')
     ->toHaveSuffix('Middleware');
 
-arch('naming > processors')
+arch('processors')
     ->expect('Aagjalpankaj\Lalo\Processors')
     ->toHaveSuffix('Processor');
 
-arch('naming > validators')
+arch('validators')
     ->expect('Aagjalpankaj\Lalo\Validators')
     ->toHaveSuffix('Validator');
-
-arch('implements > validators')
-    ->expect('Aagjalpankaj\Lalo\Formatters')
-    ->toImplement('Monolog\Formatter\FormatterInterface');

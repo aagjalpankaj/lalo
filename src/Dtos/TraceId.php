@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Aagjalpankaj\Lalo\Dto;
+namespace Aagjalpankaj\Lalo\Dtos;
 
 use Ramsey\Uuid\Uuid;
 

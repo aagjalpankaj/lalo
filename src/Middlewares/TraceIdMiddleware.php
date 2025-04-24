@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Aagjalpankaj\Lalo\Middlewares;
 
-use Aagjalpankaj\Lalo\Dto\TraceId;
+use Aagjalpankaj\Lalo\Dtos\TraceId;
 use Closure;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;

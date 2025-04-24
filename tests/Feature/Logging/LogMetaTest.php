@@ -6,7 +6,7 @@ use Aagjalpankaj\Lalo\Logger;
 use Illuminate\Support\Facades\Log;
 use Monolog\Handler\TestHandler;
 
-test('log meta - app name, env and request id', function () {
+test('log meta contains app name, env and trace id', function () {
     $testHandler = new TestHandler;
 
     $monolog = new \Monolog\Logger('test');

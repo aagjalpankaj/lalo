@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Aagjalpankaj\Lalo\Processors;
 
-use Aagjalpankaj\Lalo\Dto\TraceId;
+use Aagjalpankaj\Lalo\Dtos\TraceId;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Request;
 use Monolog\LogRecord;
