@@ -6,6 +6,10 @@
 </a>
 </p>
 
+<p align="center">
+  <img src="./docs/assets/banner.png" alt="aagjalpankaj/lalo">
+</p>
+
 ## About
 
 **Lalo** validates logs at runtime without adding any overhead on production environment, helps making logs more concise and consistent.
