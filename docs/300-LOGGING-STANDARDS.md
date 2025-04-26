@@ -1,4 +1,4 @@
-# Validations
+# Logging Standards
 
 This package enforces several validation rules to ensure consistent and maintainable logs across your application:
 
@@ -44,4 +44,4 @@ Logs containing an exception in their context are exempted from validation. This
 
 ### Environment Configuration
 
-By default, validations only run in non-production environments (`local`, `testing`, `staging`). You can customize this in the `lalo.php` config file.
+By default, validations only run on non-production environments (`local`, `testing`, `staging`). You can customize this in the `lalo.php` config file.
