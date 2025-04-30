@@ -1,0 +1,9 @@
+services:
+    -
+        class: Aagjalpankaj\Lalo\Stan\Rules\LogMessageLengthRule
+        tags:
+            - phpstan.rules.rule
+    -
+            class: Aagjalpankaj\Lalo\Stan\Rules\LogContextRule
+            tags:
+                - phpstan.rules.rule

@@ -37,6 +37,7 @@ final class ServiceProvider extends BaseServiceProvider
         if ($this->app->runningInConsole()) {
             $this->commands([
                 Commands\LogInsightsCommand::class,
+                Commands\LogAnalyseCommand::class,
             ]);
         }
     }
